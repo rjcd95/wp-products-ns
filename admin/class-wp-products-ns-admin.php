@@ -63,6 +63,7 @@ class Wp_Products_Ns_Admin {
 	private function init() {
 		add_action( 'init', 'register_products_menu_page' );
 		add_action( 'init', 'register_brand_post_type' );
+		add_action( 'init', 'create_product_category_taxonomy', 0 );
 	}
 
 	/**
