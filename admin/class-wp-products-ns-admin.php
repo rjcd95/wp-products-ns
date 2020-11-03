@@ -1,6 +1,8 @@
 <?php
 
-require plugin_dir_path( __FILE__ ) . 'products-functions.php';
+require plugin_dir_path( __FILE__ ) . 'custom-post-types-functions.php';
+require plugin_dir_path( __FILE__ ) . 'custom-block-functions.php';
+require plugin_dir_path( __FILE__ ) . 'acf-functions.php';
 /**
  * The admin-specific functionality of the plugin.
  *
@@ -64,8 +66,6 @@ class Wp_Products_Ns_Admin {
 		add_action( 'init', 'register_products_post_type' );
 		add_action( 'init', 'register_brand_post_type' );
 		add_action( 'init', 'create_product_category_taxonomy', 0 );
-		add_action( 'add_meta_boxes', 'create_custom_fields' );		
-		add_action( 'save_post', 'save_custom_fields' );
 	}
 
 	/**
