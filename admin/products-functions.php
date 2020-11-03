@@ -1,5 +1,5 @@
 <?php
-    function register_products_menu_page() {
+    function register_products_post_type() {
         $product_labels = array(
             'name'               => _x( 'Products', 'post type general name', 'product' ),
             'singular_name'      => _x( 'Products', 'post type singular name', 'product' ),
@@ -15,6 +15,7 @@
 
         $product_args = array(
             'labels'             => $product_labels,
+            'show_in_rest'       => true,
             'description'        => __( 'Description.', 'product' ),
             'public'             => true,
             'publicly_queryable' => true,
@@ -47,6 +48,7 @@
 
         $brand_args = array(
             'labels'             => $brand_labels,
+            'show_in_rest'       => true,
             'description'        => __( 'Description.', 'brand' ),
             'public'             => true,
             'publicly_queryable' => true,
@@ -78,7 +80,7 @@
         );    
         
         // Now register the taxonomy
-        register_taxonomy('subjects',
+        register_taxonomy('category',
             array('products'), 
                 array(
                     'hierarchical'      => true,
