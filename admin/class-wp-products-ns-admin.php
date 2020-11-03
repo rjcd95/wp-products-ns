@@ -61,7 +61,7 @@ class Wp_Products_Ns_Admin {
 	 * init all actions
 	 */
 	private function init() {
-		add_action( 'init', 'register_products_menu_page' );
+		add_action( 'init', 'register_products_post_type' );
 		add_action( 'init', 'register_brand_post_type' );
 		add_action( 'init', 'create_product_category_taxonomy', 0 );
 		add_action( 'add_meta_boxes', 'create_custom_fields' );		
