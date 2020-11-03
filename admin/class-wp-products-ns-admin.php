@@ -1,5 +1,6 @@
 <?php
 
+require plugin_dir_path( __FILE__ ) . 'products-functions.php';
 /**
  * The admin-specific functionality of the plugin.
  *
@@ -51,7 +52,17 @@ class Wp_Products_Ns_Admin {
 
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
+		$this->init();
 
+	}
+
+	
+
+	/**
+	 * init all actions
+	 */
+	private function init() {
+		add_action( 'init', 'register_products_menu_page' );		
 	}
 
 	/**
