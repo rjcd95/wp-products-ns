@@ -21,3 +21,4 @@ This is a plugin developed for WP WordPress Assessment.
   * Products by Category: http://ns-test.azurewebsites.net/wp-json/wp/v2/products/?category=2
   * Categories: http://ns-test.azurewebsites.net/wp-json/wp/v2/taxonomies/category
   * Brands: http://ns-test.azurewebsites.net/wp-json/wp/v2/brand
+* Theme: The zip file is located in the [theme branch](https://github.com/rjcd95/wp-products-ns/tree/theme)
