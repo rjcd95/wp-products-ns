@@ -11,11 +11,7 @@ registerBlockType("gutenberg-block/produts-block", {
             "div", {
                 className: "block",
             },
-            el("h4", "block-title", "Products"),
-            el("img", {
-                src: "/ns/wp-content/plugins/wp-products-ns/admin/img/products.png",
-                resizeMethod: "scale",
-            })
+            el("h4", "block-title", "Products")
         );
     },
     save: () => {},
@@ -30,11 +26,7 @@ registerBlockType("gutenberg-block/brands-block", {
             "div", {
                 className: "block",
             },
-            el("h4", "block-title", "Brands"),
-            el("img", {
-                src: "/ns/wp-content/plugins/wp-products-ns/admin/img/brands.png",
-                resizeMethod: "scale",
-            })
+            el("h4", "block-title", "Brands")
         );
     },
     save: () => {},
