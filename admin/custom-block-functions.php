@@ -22,7 +22,7 @@ function get_list_of_items($title, $items){
         $content = $content . '<h4>'. $title .'</h4></a>';
         $content = $content . '</li>';
     }
-    $content = $content . '</ui>';
+    $content = $content . '</ul>';
     return $content;
 }
 
