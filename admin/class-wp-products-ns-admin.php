@@ -1,8 +1,8 @@
 <?php
 
 require plugin_dir_path( __FILE__ ) . 'custom-post-types-functions.php';
-require plugin_dir_path( __FILE__ ) . 'custom-block-functions.php';
 require plugin_dir_path( __FILE__ ) . 'acf-functions.php';
+require plugin_dir_path( __FILE__ ) . 'custom-block-functions.php';
 /**
  * The admin-specific functionality of the plugin.
  *
@@ -66,6 +66,10 @@ class Wp_Products_Ns_Admin {
 		add_action( 'init', 'register_products_post_type' );
 		add_action( 'init', 'register_brand_post_type' );
 		add_action( 'init', 'create_product_category_taxonomy', 0 );
+		
+		//gutenberg custom blocks
+		add_action( 'init', 'gutenberg_products_brands_block' );
+		add_action( 'wp_enqueue_scripts', 'gutenberg_products_brand_block_frontend' );
 	}
 
 	/**
