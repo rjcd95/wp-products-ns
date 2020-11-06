@@ -7,11 +7,11 @@ function get_post_image_by_id($post_id) {
     return $image_url[0];
 }
 
-function get_list_of_items($title, $items){
-    $content = '<h4 class="title">'. $title .'</h4><hr>';
+function get_list_of_items($items){
     $content = $content . '<ul class="item-list">';
     foreach ( $items as $item ) {            
         $content = $content . '<li class="item">';
+        $content = $content . '<div>';
         $post_id    = $item->ID;
         $image_url  = get_post_image_by_id($post_id);
         $permalink  = esc_url( get_permalink( $post_id ));
@@ -22,7 +22,7 @@ function get_list_of_items($title, $items){
         $content = $content . '<h4>'. $title .'</h4></a>';
         $content = $content . '</li>';
     }
-    $content = $content . '</ul>';
+    $content = $content . '</ul><br>';
     return $content;
 }
 
@@ -35,7 +35,7 @@ function gutenberg_products_block_render_callback( $block_attributes, $content )
     if ( count( $products ) === 0 ) {
         return 'No products';
     } else {
-        $content = get_list_of_items("Products", $products);
+        $content = get_list_of_items($products);
     }
 
     return $content;
@@ -50,7 +50,7 @@ function gutenberg_brand_block_render_callback( $block_attributes, $content ) {
     if ( count( $brands ) === 0 ) {
         return 'No brands';
     } else {
-        $content = get_list_of_items("Brands", $brands);
+        $content = get_list_of_items($brands);
     }
 
     return $content;
