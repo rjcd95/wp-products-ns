@@ -13,7 +13,6 @@ This is a plugin developed for WP WordPress Assessment.
 ## Links
 * Theme
   * Theme Repository: [click here](https://github.com/rjcd95/wp-theme-ns)
-  * Theme: The zip file is located in the [theme branch](https://github.com/rjcd95/wp-products-ns/tree/theme)
 * Web: [click here](http://ns-test.azurewebsites.net)
 * Samples Post: 
   * Sample post with products: http://ns-test.azurewebsites.net/post-with-products/
