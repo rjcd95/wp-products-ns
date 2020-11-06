@@ -23,3 +23,21 @@ This is a plugin developed for WP WordPress Assessment.
   * Products by Category: http://ns-test.azurewebsites.net/wp-json/wp/v2/products/?category=2
   * Categories: http://ns-test.azurewebsites.net/wp-json/wp/v2/taxonomies/category
   * Brands: http://ns-test.azurewebsites.net/wp-json/wp/v2/brand
+
+## Screnshots
+  * Products Custom Post Type
+  ![Products Custom Post Type](https://i.ibb.co/wp4CY1M/Products-CPT.png)
+  * Categories
+  ![Home](https://i.ibb.co/Ns1mNyQ/Categories.png)
+  * Brands Custom Post Type
+  ![Brands Custom Post Type](https://i.ibb.co/nQLsFs9/Brands-CPT.png)
+  * Brand linked to product
+  ![Product-Brand](https://i.ibb.co/C96hhLv/Product-Brand.png)
+  * Products & Brands Gutenberg blokc
+  ![Products & Brands Gutenberg blokc](https://i.ibb.co/18FPMgM/Products-Brands-Block.png)
+  * Products & Brands Gutenberg blokc editor
+  ![Products & Brands Gutenberg blokc editor](https://i.ibb.co/YN7m1Kz/Products-Brands-Block-Editor.png)
+  * Products & Brands Gutenberg blokc result
+  ![Products & Brands Gutenberg blokc result](https://i.ibb.co/D8L4HCR/Products-Brands-Block-Result.png)
+  * Custom Products & Brands Widgets
+  ![Custom Products & Brands Widgets](https://i.ibb.co/hfzqCNY/Widgets.png)
