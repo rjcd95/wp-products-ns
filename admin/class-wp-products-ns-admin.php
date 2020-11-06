@@ -4,6 +4,7 @@ require plugin_dir_path( __FILE__ ) . 'custom-post-types-functions.php';
 require plugin_dir_path( __FILE__ ) . 'acf-functions.php';
 require plugin_dir_path( __FILE__ ) . 'custom-block-functions.php';
 require plugin_dir_path( __FILE__ ) . 'custom-products-widget-functions.php';
+require plugin_dir_path( __FILE__ ) . 'custom-brands-widget-functions.php';
 /**
  * The admin-specific functionality of the plugin.
  *
@@ -74,6 +75,7 @@ class Wp_Products_Ns_Admin {
 
 		//register custom widgets
 		add_action( 'widgets_init', 'products_register_widget' );
+		add_action( 'widgets_init', 'brand_register_widget' );
 	}
 
 	/**
