@@ -17,9 +17,9 @@ function get_list_of_items($items){
         $image_url  = get_post_image_by_id($post_id);
         $permalink  = esc_url( get_permalink( $post_id ));
         $title      = esc_html( get_the_title( $post_id ) );
-        $content = $content . '<a class="item-image" href="'. $permalink .'" target="_blank">';
+        $content = $content . '<a class="item-image" href="'. $permalink .'"">';
         $content = $content . '<img src="'. $image_url .'" alt="'. $title .'" /></a>';
-        $content = $content . '<a class="item-description" href="'. $permalink .'" target="_blank">';
+        $content = $content . '<a class="item-description" href="'. $permalink .'">';
         $content = $content . '<h4>'. $title .'</h4></a>';
         $content = $content . '</li>';
     }
