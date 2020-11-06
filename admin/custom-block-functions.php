@@ -8,6 +8,7 @@ function get_post_image_by_id($post_id) {
 }
 
 function get_list_of_items($items){
+    $content = '<h4 class="block-title">'. $title .'</h4><hr>';
     $content = $content . '<ul class="item-list">';
     foreach ( $items as $item ) {            
         $content = $content . '<li class="item">';
