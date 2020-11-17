@@ -13,16 +13,16 @@ This is a plugin developed for WP WordPress Assessment.
 ## Links
 * Theme
   * Theme Repository: [click here](https://github.com/rjcd95/wp-theme-ns)
-* Web: [click here](http://ns-test.azurewebsites.net)
+* Web: [click here](https://ns-assignment.000webhostapp.com/)
 * Samples Post: 
-  * Sample post with products: http://ns-test.azurewebsites.net/post-with-products/
-  * Sample post with brands: http://ns-test.azurewebsites.net/post-with-brands/
-  * Sample post with brands: http://ns-test.azurewebsites.net/post-with-products-and-brands/
+  * Sample post with products: https://ns-assignment.000webhostapp.com/products-page/
+  * Sample post with brands: https://ns-assignment.000webhostapp.com/brands-page/
+  * Sample post with brands: https://ns-assignment.000webhostapp.com/products-brands/
 * Api Rest:
-  * Products: http://ns-test.azurewebsites.net/wp-json/wp/v2/products
-  * Products by Category: http://ns-test.azurewebsites.net/wp-json/wp/v2/products/?category=2
-  * Categories: http://ns-test.azurewebsites.net/wp-json/wp/v2/taxonomies/category
-  * Brands: http://ns-test.azurewebsites.net/wp-json/wp/v2/brand
+  * Products: https://ns-assignment.000webhostapp.com/wp-json/wp/v2/products
+  * Products by Category: https://ns-assignment.000webhostapp.com/wp-json/wp/v2/products/?category=2
+  * Categories: https://ns-assignment.000webhostapp.com/wp-json/wp/v2/taxonomies/category
+  * Brands: https://ns-assignment.000webhostapp.com/wp-json/wp/v2/brand
 
 ## Screnshots
   * Products Custom Post Type
